@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 
 const CustomError = require("../errors/CustomError");
 const {ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET, FORGOT_PASS_ACTION_SECRET} = require("../constants/configs");
-const {tokenTypeEnum} = require("../enums/token-type-enum");
+const tokenTypeEnum = require("../enums/token-type-enum");
 const {FORGOT_PASSWORD} = require("../constants/email-action.enum");
 
 module.exports = {
